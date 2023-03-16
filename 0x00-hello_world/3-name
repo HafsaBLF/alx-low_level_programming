@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -shared cisfun 
+gcc $CFILE cisfun 
