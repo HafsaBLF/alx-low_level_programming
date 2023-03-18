@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char x[10000];
-int c;
-for (c = 0; c <= 16; c++)
+int c, f;
+f = 16;
+for (c = '0'; c <= f; c++)
 {
-putchar(x[c]);
+putchar(c);
 }
 putchar('\n');
 return (0);
