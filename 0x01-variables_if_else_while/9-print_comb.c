@@ -12,6 +12,7 @@ putchar(n);
 putchar(',');
 putchar(' ');
 }
+if (n == '9')
 putchar('\n');
 return (0);
 }
