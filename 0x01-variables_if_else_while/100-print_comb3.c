@@ -14,7 +14,7 @@ if ((y != z)&&(z > y))
 {
 putchar(y);
 putchar(z);
-if (x != 100)
+if (x != 89)
 {
 putchar(',');
 putchar(' ');
