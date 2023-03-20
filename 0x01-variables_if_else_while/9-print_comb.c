@@ -1,19 +1,21 @@
 #include <stdio.h>
 /**
- * main
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n;
-n = '0';
-while (n < '9')
+int x;
+for (x = '0'; x <= '9'; x++)
 {
-putchar(n);
+putchar(x);
+if (x != '9')
+{
 putchar(',');
 putchar(' ');
-n++;
 }
-putchar('9');
-return (1);
+}
+putchar('\n');
+return (0);
 }
