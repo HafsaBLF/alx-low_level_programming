@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int x, y, z, w;
+int x, y, z, w, v;
 for (x = 0; x < 900; x++)
 {
 y = x / 100;
