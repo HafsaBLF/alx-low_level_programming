@@ -20,7 +20,7 @@ _putchar(y % 10 + '0');
 }
 else
 {
-if (y != 0)
+if (a != 0)
 {
 _putchar(' ');
 }
