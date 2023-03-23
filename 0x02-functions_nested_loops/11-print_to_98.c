@@ -1,24 +1,24 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * print_to_98 - prints all natural numbers from n to 98
+/**
+ * print_to_98 - check the code.
  * @n: Description of parameter x
+ * Return: with new line
  */
 void print_to_98(int n)
 {
-int i; 
 for (n = 0; n <= 98; n++)
 {
-_putchar(n + '0');
+printf("%d", n);
 if (n != 98)
 {
 _putchar(',');
 _putchar(' ');
 }
 }
-for (n = 0; n >= 98; i--)
+for (n = 0; n >= 98; n--)
 {
-_putchar(n + '0');
+printf("%d", n);
 if (n != 98)
 {
 _putchar(',');
