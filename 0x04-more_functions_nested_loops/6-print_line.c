@@ -6,12 +6,11 @@
  */
 void print_line(int n)
 {
-char c;
-c = 95;
-if (n > 0)
+int i = 0;
+while (n > i)
 {
-_putchar(c);
+_putchar('_');
+i++;
 }
-else
 _putchar('\n');
 }
