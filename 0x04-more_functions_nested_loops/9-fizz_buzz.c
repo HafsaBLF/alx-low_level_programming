@@ -1,25 +1,26 @@
 #include <stdio.h>
-#include "main.h"
-
 int main(void)
 {
 int a;
 for (a = 1; a <= 100; a++)
 {
-if((a % 3) = 0)
+if ((a % 3) == 0)
 {
-printf("Fizz\n");
+printf("Fizz ");
 }
-if ((a % 5) = 0)
+if ((a % 5) == 0)
 {
-printf("Buzz\n");
+printf("Buzz ");
 }
-if (((a % 3) = 0) && ((a % 5) = 0))
+if (((a % 3) == 0) && ((a % 5) == 0))
 {
-	printf("FizzBuzz\n");
+printf("FizzBuzz ");
 }
-else
-printf("%d",a);
-_putchar('\n');
+else if (((a % 3) != 0) && ((a % 5) != 0))
+{
+printf("%d ", a);
+}}
+printf("\n");
+return (0);
 }
-}
+
