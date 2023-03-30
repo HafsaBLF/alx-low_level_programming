@@ -6,7 +6,7 @@
  * @dest: the pointer
  * @src: the pointer
  * @n: bytes
- * return: the resulting string to dest
+ * Return: 1 if true and 0 if false
  */
 char *_strncpy(char *dest, char *src, int n)
 {

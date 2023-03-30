@@ -6,7 +6,7 @@
  * @dest: the pointer
  * @src: the pointer
  * @n: bytes
- *Return : to dest (the resulting string)
+ * Return: 1 if true and 0 if false
  */
 char *_strncat(char *dest, char *src, int n)
 {
