@@ -8,7 +8,7 @@
 char *leet(char *c)
 {
 char *ch = c;
-long unsigned int i;
+unsigned int i;
 char alph[] = {'A', 'E', 'O', 'T', 'L'};
 int val[] = {4, 3, 0, 7, 1};
 while (*c)
