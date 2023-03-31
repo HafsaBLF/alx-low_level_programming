@@ -3,8 +3,8 @@
 #include <string.h>
 /**
  * string_toupper - change all lowercase letters of a string to uppercase
- * @str: the pointer
- * return uppercase letters
+ * @str: string to return
+ * Return: string (str)
  */
 char *string_toupper(char *str)
 {
