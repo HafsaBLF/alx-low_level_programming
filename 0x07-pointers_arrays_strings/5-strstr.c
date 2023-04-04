@@ -2,20 +2,20 @@
 #include "main.h"
 #include <string.h>
 /**
- **_strstr - locate a substring..
+ **_strstr - locate a substring.
  *@haystack: pointer
  *@needle: pointer
- *Return: new line
+ *Return: substring
  */
 char *_strstr(char *haystack, char *needle)
 {
-int x, y;
-for (x = 0; x < 8; x++)
+int i;
+i = 0;
+while (haystack[i] != '\0')
 {
-for (y = 0; y < 8; y++)
-{
-return (a[x][y]);
+needle = &haystack[i];
+return (needle);
 }
+i++;
 return ('\0');
-}
 }
