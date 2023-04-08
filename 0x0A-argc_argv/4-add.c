@@ -28,5 +28,5 @@ printf("%d\n", add);
 }
 else
 printf("0\n");
-return (0);
+return (1);
 }
