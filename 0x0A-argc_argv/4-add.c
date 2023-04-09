@@ -22,7 +22,7 @@ if (c >= 'a' && c <= 'z')
 printf("Error\n");
 return (1);
 }
-add = add + (atoi(argv[i]));
+add += atoi(argv[i]);
 }
 printf("%d\n", add);
 }
