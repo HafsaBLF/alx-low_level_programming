@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - add positive nbr
+ * main - multiply 2 nbr
  * @argc: int
  * @argv: pointer
  *
@@ -10,23 +10,17 @@
  */
 int main(int argc, char *argv[])
 {
-int add, i, c;
-add = 0;
+int i, mul;
+mul = 1;
 if (argc > 1)
 {
 for (i = 1; i < argc; i++)
 {
-c = *argv[i];
-if (c >= 'a' && c <= 'z')
-{
-printf("Error\n");
-return (1);
+mul = mul * (atoi(argv[i]));
 }
-add = add + (atoi(argv[i]));
-}
-printf("%d\n", add);
+printf("%d\n", mul);
 }
 else
-printf("0\n");
-return (0);
+printf("Error\n");
+return (1);
 }
