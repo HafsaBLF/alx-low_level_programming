@@ -6,7 +6,7 @@
  * @grid: pointer
  * @height: int
  *
- *return: pointer
+ *return: 0
  */
 void free_grid(int **grid, int height)
 {

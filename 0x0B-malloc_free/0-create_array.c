@@ -7,7 +7,7 @@
  * @size: unsigned int
  * @c: char
  *
- *return: pointer, NULL if size = 0 or false
+ * Return: 0
  */
 char *create_array(unsigned int size, char c)
 {
