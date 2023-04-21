@@ -14,13 +14,11 @@ unsigned int i;
 int x;
 x = 0;
 	va_start(op, n);
-	if (separator == NULL)
-		printf("\n");
 	for (i = 0; i < n; i++)
 	{
 		x = va_arg(op, int);
 	printf("%d", x);
-	if (i != (n - 1))
+	if (i != (n - 1) && separator != NULL)
 		printf("%s", separator);
 	}
 	printf("\n");
