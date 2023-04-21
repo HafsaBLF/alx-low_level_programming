@@ -4,13 +4,15 @@
 #include <stdlib.h>
 /**
  * main - fct
+ * @argc: int
+ * @argv: pointer
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
-	
+
 	if (argc != 4)
 	{
 		printf("Error\n");
