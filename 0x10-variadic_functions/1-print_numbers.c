@@ -15,7 +15,7 @@ int x;
 x = 0;
 	va_start(op, n);
 	if (separator == NULL)
-		return;
+		printf("\n");
 	for (i = 0; i < n; i++)
 	{
 		x = va_arg(op, int);
