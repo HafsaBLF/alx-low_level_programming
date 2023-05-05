@@ -12,6 +12,14 @@ x = 0;
 
 while (i)
 {
-
+	if (n & 1L << --i)
+	{
+		_putchar('l');
+		x++;
+	}
+	else if (x)
+		_putchar('0');
 }
+if (!x)
+	_putchar('0');
 }
